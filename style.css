@@ -41,9 +41,11 @@ header h4{
 }
 
 .cards{
+    margin-top: 48px;
+
     display: grid;
     grid-template-columns: repeat(3, 366px);
-    gap: 48px 62px;
+    gap: 62px;
 }
 
 #card{
@@ -51,6 +53,10 @@ header h4{
     border: 2px solid var(--dcolor);
     border-radius: 12px;
     overflow: hidden;
+}
+
+#card:hover{
+    transform: scale(1.1);
 }
 
 #card h2{
